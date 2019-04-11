@@ -1,145 +1,141 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+   box-sizing: border-box;
+   margin: 0;
 }
 
 
 #welcome-section {
-    height: 100vh;
-    background: linear-gradient(white, #D6D6EA);
-    ;
-    text-align: left;
-    padding-top: 250px;
-    padding-left: 30px;
-    font-size: 2em;
+   height: 100vh;
+   background: linear-gradient(white, #D6D6EA);
+   text-align: left;
+   padding-top: 250px;
+   padding-left: 30px;
+   font-size: 2em;
 }
 
 
 .img_div a {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 .contact_img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: transform 0.3s, background-color 0.5s;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   transition: transform 0.3s, background-color 0.5s;
 }
 
 .contact_img:hover {
-    transform: scale(1.2, 1.2);
-    background-color: #F7AB27;
+   transform: scale(1.2, 1.2);
+   background-color: #F7AB27;
 }
 
-.resume_img {
-    border: 1px solid black;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
+.medium_img {
+   border: 2px solid black;
+   border-radius: 50%;
+   width: 47px;
+   height: 47px;
 }
 
 #work {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
+   width: 100%;
+   margin: 0 auto;
+   background: linear-gradient(white, #D6D6EA);
+
 }
 
 #projects {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 
 .project_tile {
-    /*border:1px solid black;*/
-    width: 33%;
-    height: 150px;
-    text-align: center;
-    /*padding:37.5px 0;*/
-    /*margin: 10px;*/
-    color: black;
-    text-decoration: none;
-    border-radius: 0;
-
-
+   /*border:1px solid black;*/
+   width: 33%;
+   height: 150px;
+   text-align: center;
+   color: black;
+   text-decoration: none;
+   border-radius: 0;
+   box-shadow: 2px 2px 2px 2px #141519;
 }
 
 .project_tile:hover {
-    border-radius: 50%;
-    background: linear-gradient(white, #3A27F7, black);
+   border-radius: 20%;
 }
 
 .Python {
-    background: linear-gradient(to right bottom, #4CC4ED, white);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
 }
 
 .Tableau {
-    background: linear-gradient(to right bottom, white, #4CC4ED, black);
+   /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
 }
 
 .Unity {
-    background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
 }
 
 .Data_Analytics {
-    background: linear-gradient(to right bottom, white, #4CC4ED, black);
+   /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
 }
 
 .Information_System_Prototype {
-    background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
 }
 
 .HCI {
-    background: linear-gradient(to right bottom, #4CC4ED, white);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
 }
 
 .Certifications {
-    background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
 }
 
 .Conference_Papers {
-    background: linear-gradient(to right bottom, #4CC4ED, white);
+   /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
 }
 
 .Other {
-    background: linear-gradient(to right bottom, white, #4CC4ED, black);
+   /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
 }
 
 
 
 .project_img {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s;
+   width: 100px;
+   height: 100px;
+   transition: transform 0.3s;
 }
 
 .project_img:hover {
-    transform: scale(1.2, 1.2);
+   transform: scale(1.2, 1.2);
 }
 
 .other_img {
-    width: 70px;
-    height: 70px;
-    display:inline-block;
+   width: 70px;
+   height: 70px;
+   display: inline-block;
 }
 
 .text {
-    font-weight: bold;
-    color: black;
+   font-weight: bold;
+   color: black;
 }
 
-a:hover .text {
-    color: white;
-}
+/*a:hover .text {
+   color: ;
+}*/
 
-a:hover .other_img{
-    width: 50px;
-    height: 50px;
+a:hover .other_img {
+   width: 50px;
+   height: 50px;
 }
 
 /* @media */
 @media screen and (max-width:320px) {
-    #navbar {
-        background: linear-gradient(bottom to left, #1FDEC3, #DE1F3A);
-    }
+   #navbar {
+       background: linear-gradient(bottom to left, #1FDEC3, #DE1F3A);
+   }
 }
