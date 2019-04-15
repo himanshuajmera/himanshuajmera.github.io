@@ -44,35 +44,44 @@
    max-width: 1000px;
    display: flex;
    flex-wrap: wrap;
-   padding:20px;
-   margin-top:20px;
+   padding: 20px;
+   margin-top: 20px;
    margin-right: auto;
    margin-left: auto;
    /*background: #D6D6EA;*/
 }
 
 .project_tile {
-   background: #D6D6EA;
-   border:1px solid black;
-   flex:1;
+   /*background: #D6D6EA;*/
+
+/*    background: linear-gradient(90deg,white,black,white,black,white,black);
+*/
+    background: url("http://getwallpapers.com/wallpaper/full/6/9/b/492796.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+
+
+   border: 1px solid black;
+   flex: 1;
    min-width: 45%;
    height: 240px;
    text-align: center;
    color: black;
-   text-decoration:none;
+   text-decoration: none;
    box-shadow: 2px 2px 15px 8px #141519;
-   margin:20px;
+   margin: 20px;
 }
 
-.project_text{
+.project_text {
    display: none;
 }
 
-.project_tile:hover .project_text{
-   display:block;
+.project_tile:hover .project_text {
+   display: block;
 }
 
-.project_tile:hover .project_img{
+.project_tile:hover .project_img {
    opacity: 0.3;
 }
 
@@ -118,7 +127,7 @@
    width: 100px;
    height: 100px;
    transition: transform 0.3s;
-   margin-top:20px;
+   margin-top: 20px;
 }
 
 .project_img:hover {
@@ -133,8 +142,9 @@
 
 .text {
    font-weight: bold;
-   color: black;
-   margin-top:30px;
+   color: #0D06D0;
+   margin-top: 30px;
+   font-size: 2em;
 }
 
 /*a:hover .text {
@@ -151,4 +161,3 @@ a:hover .other_img {
    #navbar {
        background: linear-gradient(bottom to left, #1FDEC3, #DE1F3A);
    }
-}
