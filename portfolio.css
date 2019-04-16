@@ -54,10 +54,10 @@
 .project_tile {
     background: #D6D6EA;
 
-/*    background: linear-gradient(90deg,white,black,white,black,white,black);
+    /*    background: linear-gradient(90deg,white,black,white,black,white,black);
 */
     /* background: url("http://getwallpapers.com/wallpaper/full/6/9/b/492796.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 */
@@ -73,10 +73,6 @@
     margin: 20px;
 }
 
-.project_text {
-    display: none;
-    font-size: 1em;
-}
 
 .project_tile:hover .project_text {
     display: block;
@@ -86,41 +82,94 @@
     opacity: 0.3;
 }
 
-.Python {
+.Python:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
+    /*background-color: black;*/
+    background-image: url("https://image.shutterstock.com/image-illustration/python-on-cyber-background-450w-540638962.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Tableau {
+.Tableau:hover {
     /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
+    /*background-color:black;*/
+    background-image: url("https://image.slidesharecdn.com/tableau-finalpresentation-161211155749/95/tableau-presentation-1-638.jpg?cb=1481474604");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Unity {
+.Unity:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
+    background-color: black;
+    background-image: url("http://www.stickpng.com/assets/images/58482b92cef1014c0b5e4a2d.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Data_Analytics {
+.Data_Analytics:hover {
     /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
+    /*background-color:black;*/
+    background-image: url("https://www.colourbox.com/preview/30473738-business-data-analytics-colorful-illustration.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Information_System_Prototype {
+.Information_System_Prototype:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
+    background-color: #C8D10D;
+    background-image: url("https://cdn-images-1.medium.com/max/1600/1*u5tCByoIo7t-S4mVHoUW3w.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.HCI {
+.HCI:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
+    /*background-color:black;*/
+    background-image: url("https://www.uat.edu/themes/uat/images/mobile/icons/courseIconBS-hci.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Certifications {
+.Certifications:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
+    /*background-color:black;*/
+    background-image: url("http://www.ebm.com.pk/wp-content/uploads/2015/06/awards-backgroundimage.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
+
 }
 
-.Conference_Papers {
+.Conference_Papers:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
+    /*background-color:black;*/
+    background-image: url("http://www.catholiclane.com/wp-content/uploads/writing-on-laptop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: luminosity;
 }
 
-.Other {
-    /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-}
+
 
 
 
@@ -148,14 +197,32 @@
     font-size: 2em;
 }
 
-/*a:hover .text {
-    color: ;
-}*/
 
-a:hover .other_img {
-    width: 50px;
-    height: 50px;
+.project_text {
+    display: none;
+    font-size: 18px;
+    padding: 10px;
+    padding-top: 40px;
+    color: white;
+    /*font-variant: small-caps;*/
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    -webkit-text-stroke: 0.4px #D11D0D;
 }
+
+.Tableau .project_text,
+.Conference_Papers .project_text,
+.HCI .project_text,
+.Information_System_Prototype .project_text {
+    color: black;
+    -webkit-text-stroke: 0.2px #5EF6F3;
+}
+
+a:hover .text,
+a:hover .project_img {
+    display: none;
+}
+
 
 /* @media */
 @media screen and (max-width:320px) {
