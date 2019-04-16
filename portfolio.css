@@ -75,6 +75,7 @@
 
 .project_text {
     display: none;
+    font-size: 1em;
 }
 
 .project_tile:hover .project_text {
