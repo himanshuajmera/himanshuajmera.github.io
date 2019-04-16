@@ -89,7 +89,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
@@ -100,7 +100,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
@@ -111,7 +111,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
@@ -122,18 +122,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
 .Information_System_Prototype:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color: #C8D10D;
+    background-color: #78c665;
     background-image: url("https://cdn-images-1.medium.com/max/1600/1*u5tCByoIo7t-S4mVHoUW3w.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
@@ -144,7 +144,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 
 }
 
@@ -155,7 +155,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*/*background-blend-mode: luminosity;*/
 
 }
 
@@ -166,7 +166,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: luminosity;
+    /*background-blend-mode: luminosity;*/
 }
 
 
