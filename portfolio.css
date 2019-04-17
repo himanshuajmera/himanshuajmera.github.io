@@ -117,9 +117,10 @@
 
 .Data_Analytics:hover {
     /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-    /*background-color:black;*/
-    background-image: url("https://www.colourbox.com/preview/30473738-business-data-analytics-colorful-illustration.jpg");
-    background-size: cover;
+    background-color: #D1960D;
+    /*https://www.colourbox.com/preview/30473738-business-data-analytics-colorful-illustration.jpg*/
+    background-image: url("https://cdn4.iconfinder.com/data/icons/seo-glyph-3/614/Analysis-512.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*background-blend-mode: luminosity;*/
@@ -184,11 +185,6 @@
     transform: scale(1.2, 1.2);
 }
 
-/*.other_img {
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-}*/
 
 .text {
     font-weight: bold;
@@ -213,6 +209,7 @@
 .Tableau .project_text,
 .Conference_Papers .project_text,
 .HCI .project_text,
+.Data_Analytics .project_text,
 .Information_System_Prototype .project_text {
     color: black;
     -webkit-text-stroke: 0.2px #5EF6F3;
@@ -225,8 +222,24 @@ a:hover .project_img {
 
 
 /* @media */
-@media screen and (max-width:320px) {
-    #navbar {
-        background: linear-gradient(bottom to left, #1FDEC3, #DE1F3A);
+@media screen and (max-width:480px) {
+    #welcome-section {
+        height: 100px;
+        padding: 10px;
+        margin: 5px;
+            text-align: center;
+
+    }
+
+    #work {
+        margin-top: 200px;
+    }
+
+    .project_tile {
+        background: #585582;
+    }
+    .project_tile .text{
+        color:white;
+        font-size: 1.5em;
     }
 }
