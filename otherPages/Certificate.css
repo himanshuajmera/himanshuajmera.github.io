@@ -1,41 +1,53 @@
- header {
-     height: 100px;
-     background-image: url("http://www.attachmax.com/p/2018/11/ppt-template-background-plain-world-of-label-intended-for-ppt-template-background-plain.jpg");
-     text-align: center;
-     position: fixed;
-     width: 100%;
-     top: 0;
- }
+header {
+    height: 100px;
+    background-image: url("http://www.attachmax.com/p/2018/11/ppt-template-background-plain-world-of-label-intended-for-ppt-template-background-plain.jpg
+http://www.attachmax.com/p/2018/11/ppt-template-background-plain-world-of-label-intended-for-ppt-template-background-plain.jpg
+");
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
- .header_h1 {
-     padding: 20px;
- }
+.header_h1 {
+    padding: 20px;
+}
 
- .w3-display-container {
-     max-width: 1000px;
-     /*width:80%;*/
-     margin-top: 180px;
-     /*
-	margin-left: auto;
-	margin-right: auto;*/
- }
+.w3-display-container {
+    max-width: 1000px;
+    /*width:80%;*/
+    margin-top: 180px;
+    /*
+    margin-left: auto;
+    margin-right: auto;*/
+}
 
- .mySlides {
-     max-width: 1000px;
-     display: none;
-     width: 900px;
-     height: 650px;
-     margin: 0 auto;
- }
+.mySlides {
+    max-width: 1000px;
+    display: none;
+    width: 900px;
+    height: 650px;
+    margin: 0 auto;
+}
 
- .w3-left,
- .w3-right,
- .w3-badge {
-     cursor: pointer
- }
+.w3-left,
+.w3-right,
+.w3-badge {
+    cursor: pointer
+}
 
- .w3-badge {
-     height: 13px;
-     width: 13px;
-     padding: 0
- }
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}
+
+@media screen and (max-width:480px){
+    .mySlides {
+         width:320px;
+         height:200px;
+    }
+    .w3-display-container {
+         margin-top: 270px;
+    }
+}
