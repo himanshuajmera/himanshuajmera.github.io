@@ -8,6 +8,9 @@
  }
  .header_h1 {
      padding: 20px;
+     display: block;
+  	  font-size: 2em;
+  	  font-weight: bold;
  }
  .w3-display-container {
      max-width: 1000px;
