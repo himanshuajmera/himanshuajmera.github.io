@@ -15,6 +15,9 @@ header{
 
 .header_h1{
 	padding: 20px;
+	display: block;
+  	font-size: 2em;
+  	font-weight: bold;
 }
 
 div{
@@ -54,7 +57,7 @@ input{
 .submit_btn{
 	background: #C9CADF;
 	padding:5px;
-	margin-top: 10px;	
+	margin-top: 9px;	
 	border:1px solid black;
 	border-radius:5px;
 }
