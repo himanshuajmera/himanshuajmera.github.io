@@ -5,11 +5,11 @@
 }
 
 header{
-	height: 100px;
+	height: 150px;
 	background-image: url("http://www.attachmax.com/p/2018/11/ppt-template-background-plain-world-of-label-intended-for-ppt-template-background-plain.jpg");
 	text-align: center;
 	position: fixed;
-  width:100%;
+  width:150%;
   top:0;
 }
 
