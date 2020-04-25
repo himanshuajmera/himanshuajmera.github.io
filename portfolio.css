@@ -84,9 +84,9 @@
 
 .Python:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    /*background-color: black;*/
-    background-image: url("https://image.shutterstock.com/image-illustration/python-on-cyber-background-450w-540638962.jpg");
-    background-size: cover;
+    background-color: white;
+    background-image: url("https://i.imgur.com/LaiMj9W.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*background-blend-mode: luminosity;*/
@@ -95,9 +95,9 @@
 
 .Tableau:hover {
     /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-    /*background-color:black;*/
-    background-image: url("https://image.slidesharecdn.com/tableau-finalpresentation-161211155749/95/tableau-presentation-1-638.jpg?cb=1481474604");
-    background-size: cover;
+    background-color:white;
+    background-image: url("https://i.imgur.com/XZeb8wE.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*background-blend-mode: luminosity;*/
@@ -106,8 +106,8 @@
 
 .Unity:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color: black;
-    background-image: url("http://www.stickpng.com/assets/images/58482b92cef1014c0b5e4a2d.png");
+    background-color: white;
+    background-image: url("https://i.imgur.com/AdhD96a.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,9 +117,9 @@
 
 .Data_Analytics:hover {
     /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-    background-color: #D1960D;
+    background-color: white;
     /*https://www.colourbox.com/preview/30473738-business-data-analytics-colorful-illustration.jpg*/
-    background-image: url("https://cdn4.iconfinder.com/data/icons/seo-glyph-3/614/Analysis-512.png");
+    background-image: url("https://i.imgur.com/7hdGXvl.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,8 +129,8 @@
 
 .Information_System_Prototype:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color: #78c665;
-    background-image: url("https://cdn-images-1.medium.com/max/1600/1*u5tCByoIo7t-S4mVHoUW3w.png");
+    background-color: white;
+    background-image: url("http://www.visiontelecom.com.pk/wp-content/uploads/2012/04/premium-internet-services11.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,9 +140,9 @@
 
 .HCI:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    /*background-color:black;*/
-    background-image: url("https://www.uat.edu/themes/uat/images/mobile/icons/courseIconBS-hci.jpg");
-    background-size: cover;
+    background-color: white;
+    background-image: url("https://i.imgur.com/ZcuBxAD.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*background-blend-mode: luminosity;*/
@@ -151,9 +151,9 @@
 
 .Certifications:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    /*background-color:black;*/
-    background-image: url("http://www.ebm.com.pk/wp-content/uploads/2015/06/awards-backgroundimage.png");
-    background-size: cover;
+    background-color:white;
+    background-image: url("https://i.imgur.com/jHUlqgp.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*/*background-blend-mode: luminosity;*/
@@ -162,9 +162,9 @@
 
 .Conference_Papers:hover {
     /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    /*background-color:black;*/
-    background-image: url("http://www.catholiclane.com/wp-content/uploads/writing-on-laptop.jpg");
-    background-size: cover;
+    background-color:white;
+    background-image: url("https://i.imgur.com/pbe6DSe.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     /*background-blend-mode: luminosity;*/
@@ -199,20 +199,12 @@
     font-size: 18px;
     padding: 10px;
     padding-top: 40px;
-    color: white;
+    color: black;
     /*font-variant: small-caps;*/
     font-weight: bold;
     text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    -webkit-text-stroke: 0.4px #D11D0D;
-}
-
-.Tableau .project_text,
-.Conference_Papers .project_text,
-.HCI .project_text,
-.Data_Analytics .project_text,
-.Information_System_Prototype .project_text {
-    color: black;
     -webkit-text-stroke: 0.2px #5EF6F3;
+    /* -webkit-text-stroke: 0.4px #D11D0D; */
 }
 
 a:hover .text,
