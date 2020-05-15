@@ -27,7 +27,7 @@
      height: 650px;
      margin: 0 auto;
  }
-.w3-display-left {
+/*.w3-display-left {
     position: absolute;
     top: -1300%;
     left: 0%;
@@ -41,7 +41,8 @@
     right: 0%;
     transform: translate(0%,-50%);
     -ms-transform: translate(0%,-50%);
-}
+}*/
+
  .w3-left,
  .w3-right,
  .w3-badge {
