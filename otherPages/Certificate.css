@@ -43,8 +43,20 @@
     -ms-transform: translate(0%,-50%);
 }*/
 
- .w3-left,
- .w3-right,
+ .w3-left {
+    position: absolute;
+    top: -1300%;
+    left: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(-0%,-50%);
+}
+ .w3-right {
+    position: absolute;
+    top: -1300%%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    -ms-transform: translate(0%,-50%);
+}
  .w3-badge {
      cursor: pointer
  }
