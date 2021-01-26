@@ -246,9 +246,9 @@ body {
   }
   
   .grid {
-    background: #CCC;
-    width: 3000px;
-    padding: 250px;
+    background: #FFF;
+    width: 1000px;
+    padding: 50;
   }
   
   .grid::after {
@@ -260,19 +260,19 @@ body {
   .grid-item {
     box-sizing:border-box;
     text-align: center;
-    padding-top: 100px;
-    width: 250px;
-    height: 250px;
+    padding-top: 0 px;
+    width: 140px;
+    height: 140px;
     overflow: hidden;
-    float: left;
-    background: #BBB;
+    float: right;
+    background: white;
     border-radius: 50%;
     margin: 0px;
-    margin-top: -35px;
+    margin-top: 0px;
   }
   
   .grid-item-buffer {
-    opacity: 0;
+    opacity: 2;
   }
   
   .grid-item:nth-child(1),
@@ -280,7 +280,7 @@ body {
   .grid-item:nth-child(3),
   .grid-item:nth-child(4),
   .grid-item:nth-child(5),
-  .grid-item:nth-child(6) {
+  .grid-item:nth-child(6){
      margin-top: 0px;
   }
   
@@ -295,5 +295,5 @@ body {
   
   
   .grid-item:hover {
-    background: #FFF;
+    background: #F7AB27;
   }
