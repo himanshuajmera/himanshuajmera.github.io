@@ -245,7 +245,7 @@ df-messenger {
     --df-messenger-user-message: #E8E8E8;
    }
    
-body {
+ body {
     margin:100px;
     padding: 150px;
     -ms-scroll-rails: none;
@@ -256,9 +256,9 @@ body {
   }
   
   .grid {
-    background: #FFF;
-    width: 1000px;
-    padding: 40px;
+    background: #CCC;
+    width: 900px;
+    
   }
   
   .grid::after {
@@ -270,9 +270,9 @@ body {
   .grid-item {
     box-sizing:border-box;
     text-align: center;
-    padding-top: 0 px;
-    width: 140px;
-    height: 140px;
+    padding-top: 100 px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     float: right;
     background: white;
