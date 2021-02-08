@@ -235,3 +235,14 @@ a:hover .project_img {
         font-size: 1.5em;
     }
 }
+
+df-messenger {
+    --df-messenger-bot-message: #fafafa;
+    --df-messenger-button-titlebar-color: #D6D6EA;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-font-color: black;
+    --df-messenger-send-icon: #D6D6EA;
+    --df-messenger-user-message: #E8E8E8;
+   }
+   
+
