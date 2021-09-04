@@ -1,237 +1,160 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
+@keyframes contact_image {
+  from {
+    background-color: #7fcde2;
+  }
+  to {
+    transform: scale(1.2, 1.2);
+    background-color: #91ef6f;
+  }
+}
 
 #welcome-section {
-    height: 500px;
-    text-align: left;
-    padding-top: 250px;
-    padding-left: 30px;
-    font-size: 2em;
+  height: 90vh;
+  text-align: center;
+  padding-top: 200px;
+  font-size: 2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-left: 30px solid black;
+  border-right: 30px solid black;
+
 }
 
 
+.img_div{
+  padding-top: 5px;
+}
 .img_div a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .contact_img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    transition: transform 0.3s, background-color 0.5s;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s, background-color 0.5s;
+}
+
+.contact_img_border {
+  border: 1px solid #9f9f9f;
 }
 
 .contact_img:hover {
-    transform: scale(1.2, 1.2);
-    background-color: #F7AB27;
+  animation: contact_image 3s;
 }
 
 .medium_img {
-    border: 2px solid black;
-    border-radius: 50%;
-    width: 47px;
-    height: 47px;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 47px;
+  height: 47px;
 }
 
 #work {
-    width: 100%;
+  width: 100%;
 }
 
 #projects {
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    /*background: #D6D6EA;*/
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .project_tile {
-    background: #D6D6EA;
-
-    /*    background: linear-gradient(90deg,white,black,white,black,white,black);
-*/
-    /* background: url("http://getwallpapers.com/wallpaper/full/6/9/b/492796.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-*/
-
-    border: 1px solid black;
-    flex: 1;
-    min-width: 45%;
-    height: 240px;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    box-shadow: 2px 2px 15px 8px #141519;
-    margin: 20px;
+  border: 1px solid black;
+  flex: 1;
+  min-width: 45%;
+  height: 240px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  box-shadow: 2px 2px 15px 8px #141519;
+  margin: 20px;
 }
 
+.project_tile:hover {
+  transform: scale(150%);
+  background-color: white;
+}
 
-.project_tile:hover .project_text {
-    display: block;
+.text {
+  font-weight: bold;
+  color: black;
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+a:hover .text {
+  display: none;
+}
+/* .Conference_Papers:hover {
+  background-color: white;
+  background-image: url("https://i.imgur.com/pbe6DSe.png");
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top;
+} */
+
+.project_img {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.3s;
+  margin-top: 20px;
 }
 
 .project_tile:hover .project_img {
-    opacity: 0.3;
-}
-
-.Python:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    background-color: white;
-    background-image: url("https://i.imgur.com/LaiMj9W.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.Tableau:hover {
-    /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-    background-color:white;
-    background-image: url("https://i.imgur.com/XZeb8wE.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.Unity:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color: white;
-    background-image: url("https://i.imgur.com/AdhD96a.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.Data_Analytics:hover {
-    /*background: linear-gradient(to right bottom, white, #4CC4ED, black);*/
-    background-color: white;
-    /*https://www.colourbox.com/preview/30473738-business-data-analytics-colorful-illustration.jpg*/
-    background-image: url("https://i.imgur.com/7hdGXvl.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.Information_System_Prototype:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color: white;
-    background-image: url("https://i.imgur.com/C300Ohy.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.HCI:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    background-color: white;
-    background-image: url("https://i.imgur.com/ZcuBxAD.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-
-}
-
-.Certifications:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white, #4AA5C0);*/
-    background-color:white;
-    background-image: url("https://i.imgur.com/jHUlqgp.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*/*background-blend-mode: luminosity;*/
-
-}
-
-.Conference_Papers:hover {
-    /*background: linear-gradient(to right bottom, #4CC4ED, white);*/
-    background-color:white;
-    background-image: url("https://i.imgur.com/pbe6DSe.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    /*background-blend-mode: luminosity;*/
-}
-
-
-
-
-
-.project_img {
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s;
-    margin-top: 20px;
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .project_img:hover {
-    transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.1);
 }
-
-
-.text {
-    font-weight: bold;
-    color: black;
-    margin-top: 30px;
-    font-size: 2em;
-}
-
 
 .project_text {
-    display: none;
-    font-size: 18px;
-    padding: 10px;
-    padding-top: 40px;
-    color: black;
-    /*font-variant: small-caps;*/
-    font-weight: bold;
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
-    -webkit-text-stroke: 0.2px #5EF6F3;
-    /* -webkit-text-stroke: 0.4px #D11D0D; */
+  display: none;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+  /* font-weight: bold; */
+  /* text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+  -webkit-text-stroke: 0.2px #5ef6f3; */
 }
 
-a:hover .text,
-a:hover .project_img {
-    display: none;
+.project_tile:hover .project_text {
+  display: block;
+  margin-top: 10px;
 }
 
 
 /* @media */
 @media screen and (max-width:480px) {
-    #welcome-section {
-        height: 100px;
-        padding: 10px;
-        margin: 5px;
-            text-align: center;
+  #welcome-section {
+    height: 100px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+  }
 
-    }
+  #work {
+    margin-top: 200px;
+  }
 
-    #work {
-        margin-top: 200px;
-    }
-
-    .project_tile {
-        background: #585582;
-    }
-    .project_tile .text{
-        color:white;
-        font-size: 1.5em;
-    }
+  .project_tile {
+    background: #585582;
+  }
+  .project_tile .text{
+    color:white;
+    font-size: 1.5em;
+  }
 }
