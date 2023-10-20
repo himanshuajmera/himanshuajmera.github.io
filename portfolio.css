@@ -13,6 +13,20 @@
   }
 }
 
+@keyframes t2b {
+  from {
+    top: 0;
+  }
+  to {
+    top: 45px;
+  } 
+  /* 0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:200px; top:200px;}
+  75%  {color:green; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px;} */
+}
+
 #welcome-section {
   height: 90vh;
   text-align: center;
@@ -23,6 +37,17 @@
   border-right: 30px solid black;
 
 }
+
+.characters{
+  animation: t2b 4s ease-in-out;
+  color: rgba(152, 108, 202, 0.562);
+  position: relative;
+}
+
+.charWrap{
+  position: relative;
+}
+
 
 
 .img_div{
